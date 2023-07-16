@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FORMProject</title>
+    <link rel="stylesheet" href="formdecoration.css">
+</head>
+
+<body>
+    <h1>FORMS PROJECT</h1>
+    <form action="/tacos">
+        <div>
+            <label for="user">Enter a Username:</label>
+
+            <input id="user" type="text" placeholder="Enter Username" name="username">
+        </div>
+        <div>
+            <label for="password">Enter Password</label>
+            <input id="password" type="password" placeholder="Enter Pass" name="password">
+        </div>
+        <div>
+            <label for="color">Pick a shade</label>
+
+            <input id="color" type="color" placeholder="Enter" name="color">
+        </div>
+        <div>
+            <label for="num">Enter a number</label>
+            <input id="num" type="number" placeholder="Enter Number" name="number">
+        </div>
+        <div>
+            <label for="check">Check the box</label>
+            <input id="check" type="checkbox" placeholder="Tick" name="check">
+        </div>
+        <button>Submit</button>
+        <h2>Hijacking Searches</h2>
+        <h3>Hijacking Google</h3>
+    </form>
+
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Google Search</button>
+
+    </form>
+
+    <h3>Hijacking youtube</h3>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Youtube Search</button>
+        <div>
+            <label for="s">S:</label>
+
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M:</label>
+            <input type="radio" name="size" id="m" value="m">
+
+            <label for="l">L:</label>
+            <input type="radio" name="size" id="l" value="l">
+        </div>
+
+    </form>
+    <form action="/food">
+        <label for="meal">Select meal type</label>
+        <select name="meal" id="meal">
+            <option value="egg">Egg</option>
+            <option value="veg">Vegeterian</option>
+            <option value="steak">Steak</option>
+        </select>
+        <button>Click</button>
+        <p>
+            <label for="text">Any special requests?</label>
+        </p>
+        <textarea name="text" id="text" cols="30" rows="10" placeholder="type here">First Line</textarea>
+
+    </form>
+
+</body>
+
+</html>
